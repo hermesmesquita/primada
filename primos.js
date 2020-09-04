@@ -13,7 +13,7 @@ function buscaNumeroPrimos(n) {
         if (i===2){
             numerosPrimos.push(i);
         };
-        if (i=== --numerosPrimos){
+        if (i===numerosPrimos){
             numerosPrimos.push(i);
         };
     }
